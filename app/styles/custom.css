@@ -1,0 +1,38 @@
+/* .ContactForm {
+  width: 100%;
+}
+
+/* Styles for devices starting from 360px up to 768px */
+/* @media (min-width: 360px) and (max-width: 768px) {
+  .custom-mobile-360to768 {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+/* Existing styles for tablets */
+/* @media (max-width: 768px) {
+  .custom-tablet-768 {
+    width: 100%;
+    padding: 0 15px;
+  }
+} */
+
+/* Existing styles for desktops */
+/* @media (min-width: 769px) and (max-width: 1024px) {
+  .custom-desktop-1024 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .custom-desktop-1025 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 45px;
+  }
+} */

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-container {
+  display: flex;
+  justify-content: right;
+  margin-left: 17.5rem;
+  margin-right: 5rem;
+}
+.background {
+  background: url("../public/assets/Desktop.png") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
