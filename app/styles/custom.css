@@ -1,0 +1,58 @@
+/* Base styles for mobile view (default) */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem; /* Adjust padding as needed */
+}
+
+.image-text-container {
+  display: none;
+}
+
+.desktop-contact-form {
+  display: none;
+}
+
+/* Tablet view (min-width: 768px) */
+@media (min-width: 768px) {
+  .contact-form {
+    display: none;
+  }
+
+  .image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* Adjust padding as needed */
+  }
+
+  .desktop-contact-form {
+    display: none;
+  }
+}
+
+/* Desktop view (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .contact-form {
+    display: none;
+  }
+
+  .image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; /* Adjust padding as needed */
+  }
+
+  .desktop-contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* Any additional styling for the desktop contact form */
+  }
+}
