@@ -27,7 +27,7 @@ const ContactForm = () => {
     <div className="flex justify-center">
       <form
         onSubmit={handleSubmit}
-        className="bg-white bg-opacity-25 shadow-md rounded-lg px-12 pt-6 pb-8 mb-4"
+        className="bg-white bg-opacity-25 shadow-md rounded-lg pl-8 mb-4"
       >
         <div className="mb-4 ml-16">
           <div className="space-x-4">
